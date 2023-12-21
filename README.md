@@ -1,4 +1,4 @@
-# Trendy Restaurant E-Commerce Platform
+# King's Food Online Restaurant
 
 This repository contains the code for a modern e-commerce platform designed for a trendy restaurant. Users can browse and order a variety of items, including Pizza, Pasta, Avocado Toast, Sushi Burritos, Acai Bowls, Quinoa Bowls, Laksa, Tacos, Burgers, Fries, and a selection of drinks such as Coffee, Matcha Lattes, Kombucha, Smoothies, Fruit Infused Water, Coconut Water, Teas, Vegetable Juices, Sparkling Water, and Milk.
 
@@ -63,7 +63,7 @@ To set up and run the project, follow these steps:
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/your-username/trendy-restaurant-ecommerce.git
+   git clone https://github.com/Isuru-27/King-s-Food-Online-Restaurent.git
    ```
 
 2. Navigate to the project directory.
