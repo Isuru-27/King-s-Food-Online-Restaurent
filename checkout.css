@@ -1,0 +1,260 @@
+body {
+    background: rgb(228, 238, 134);
+    font-family: 'Muli', sans-serif;
+  }
+  
+  .container {
+    margin: auto;
+    width: 1200px;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-body {
+    width: 1000px;
+    height: 870px;
+    padding-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #EBF1EB;
+    box-shadow: 0px 5px 12px 2px rgb(228, 238, 134);
+  }
+  
+  .breadcrumb {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+    
+    color: #B0636D;
+    
+    font-size: 1.1rem;
+    font-weight: 200;
+    
+    padding: 2rem;
+  }
+  
+  .confirmed {
+    color: #6a9858;
+    font-weight: 800;
+    font-style: italic;
+    opacity: 0.6;
+  }
+  
+  .active {
+    font-weight: 800;
+    font-style: italic;
+    border-bottom: 3px solid #49425a;
+    color: #49425a;
+    font-size: 24px;
+  }
+  
+  .next {
+    color: #49425A;
+    font-weight: 400;
+    font-style: italic;
+    opacity: 0.6;
+  }
+  
+  .payment {
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .creditcard {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .thecard {
+    width: 365px;
+    height: 225px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    background: rgb(228, 238, 134);
+    
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.3);
+    
+    text-shadow: 0 1px 0 rgba(0,0,0,1);
+  }
+  
+  .top-card {
+    display: flex;
+  }
+  
+  .card-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+    color: #03030348;
+    div {
+      margin: 0.3rem 0;
+    }
+    .card-number {
+      font-size: 1.2rem;
+      font-weight: 400;
+      font-style: italic;
+    }
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    
+    margin: 20px;
+    
+    border-radius: 50%;
+    
+    background: #C54177;
+    &:before {
+      content: '';
+      
+      position: absolute;
+      
+      width: 50px;
+      height: 50px;
+  
+      margin: 15px 10px;
+  
+      border-radius: 50%;
+  
+      background: #E0BF73;
+    }
+  }
+  
+  .card-title {
+    margin: 20px;
+    margin-left: -40px;
+    
+    z-index: 1;
+    
+    color: #EBF1EB;
+    
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  
+  .form {
+    width: 50%;
+    height: 100%;
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-family: 'Muli', sans-serif;
+    
+    color: #49425a;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  
+  label {
+    margin-bottom: 0.3rem;
+  }
+  
+  input, select {
+    margin-bottom: 1.3rem;
+    padding: 1rem;
+    
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0);
+    
+    outline: none;
+    
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    font-family: 'Muli', sans-serif;
+    
+    background: #FFF;
+    color: #49425a;
+    
+    transition: all 300ms ease;
+    
+    &:hover {
+      transition: all 300ms ease;
+      border: 1px solid #49425A;
+    }
+  }
+  
+  .small {
+    width: 100%;
+    display: flex;
+    
+    label {
+    display: block;
+    }
+    
+    p {
+    width: 200px;
+    margin-left: 1rem;
+    align-self: center;
+    }
+  }
+  
+  select {
+    width: 45%;
+    height: 3.3rem;
+  }
+  
+  .date {
+    display: flex;
+    justify-content: space-between;
+    label {
+    display: block;
+    }
+  }
+  
+  button {
+    font-size: 1.1rem;
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Muli', sans-serif;
+    
+    background: #6a9858;
+    color: #EBF1EB;
+    
+    padding: 1rem;
+    
+    border-radius: 5px;
+    border: none;
+    
+    outline: none;
+    
+    cursor: pointer;
+    
+    transition: all 300ms ease;
+    
+    &:hover {
+      background: #3c9858;
+    }
+  }
