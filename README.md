@@ -18,6 +18,10 @@ This repository contains the code for a modern e-commerce platform designed for 
 
 This e-commerce platform is a web application developed as part of the IT1208 Web Technologies course at the Institute of Technology, University of Moratuwa. The objective is to create an engaging and user-friendly online platform for ordering food and drinks from the restaurant.
 
+![1](https://github.com/Isuru-27/King-s-Food-Online-Restaurent/assets/139687227/8faa648d-41d5-46bd-be88-c36b2a2534d5)<br>
+![2](https://github.com/Isuru-27/King-s-Food-Online-Restaurent/assets/139687227/30bf0406-1003-417d-90da-ef215605e574)
+
+
 ## Requirements
 
 The platform meets the following requirements:
@@ -26,14 +30,20 @@ The platform meets the following requirements:
   - Visually appealing homepage showcasing featured items using HTML and CSS.
   - Responsive design for optimal user experience on various devices.
   - Dynamic elements using JavaScript, such as interactive menus and image sliders.
+![3](https://github.com/Isuru-27/King-s-Food-Online-Restaurent/assets/139687227/50488ff0-02cd-4de8-b1b9-c979d7da42e0)<br><br>
+![4](https://github.com/Isuru-27/King-s-Food-Online-Restaurent/assets/139687227/374ce6eb-0617-432e-8da6-d89c5ddd9cf3)
 
 - **Product Catalog:**
   - Product catalog page with detailed descriptions and visuals.
   - JavaScript features for sorting, filtering, and dynamic updates.
+![5](https://github.com/Isuru-27/King-s-Food-Online-Restaurent/assets/139687227/218aea2b-2e01-4149-84fc-5901d253f283)
 
 - **Shopping Cart:**
   - Sleek shopping cart page with dynamic updates using JavaScript.
   - Easy customization of selected items and quantity adjustments.
+![6](https://github.com/Isuru-27/King-s-Food-Online-Restaurent/assets/139687227/3f4b1c82-19ce-4a1c-a0be-7744e16a710f)<br>
+![7](https://github.com/Isuru-27/King-s-Food-Online-Restaurent/assets/139687227/41c30a48-8027-4ff5-835a-7e49f843d7d6)<br>
+![8](https://github.com/Isuru-27/King-s-Food-Online-Restaurent/assets/139687227/781de3ab-959f-4d1e-a13d-0b1987ee0e64)<br>
 
 - **Backend (PHP and MySQL):**
   - PHP backend managing product data storage in a MySQL database.
@@ -92,7 +102,6 @@ The project is organized as follows:
 - **`checkout.html`**: Checkout process page.
 - **`login.html`**: Login page.
 - **`register.html`**: Registration page.
-- **`...`**: Other files and directories as needed.
 
 ## Usage
 
