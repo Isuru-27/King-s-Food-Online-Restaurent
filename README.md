@@ -96,12 +96,13 @@ The project is organized as follows:
 - **`images/`**: Includes images used in the application.
 - **`database/`**: Contains database setup instructions and scripts.
 - **`README.md`**: Documentation for the project.
-- **`index.html`**: Homepage of the e-commerce platform.
-- **`catalog.html`**: Product catalog page.
-- **`cart.html`**: Shopping cart page.
-- **`checkout.html`**: Checkout process page.
-- **`login.html`**: Login page.
-- **`register.html`**: Registration page.
+- **`Home.php`**: Homepage of the e-commerce platform.
+- **`signin.php`**: user signin or registration page.
+- **`add_cart.php`**: Shopping cart page.
+- **`checkout.php`**: Checkout process page.
+- **`about.php`**: The Restaurant member's details page.
+- **`contact.php`**: Contact with Restaurant page.
+- **`reserve.php`**: Where should be deliver?
 
 ## Usage
 
